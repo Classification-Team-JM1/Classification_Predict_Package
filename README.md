@@ -17,8 +17,9 @@ This repository hosts code to deploy [Streamlit](https://www.streamlit.io/) web 
 #### 1. Predict Tab
 In the side bar drop down ,the user can choose the prediction tab .On this page ,the user is prompted to enter the text they wish to classify , order to determind if the it is either Pro ,Nuetral ,Anti or news.To classify this text ,there are 3 models to choose from which have been trained on the same data set and then prickled to deploy on the app.
 The user has the option of Logistic regression, Random forest, or a Support vector machine learning model.After selecting a model,and upon  pressing the "classify" button ,the text is classified by the model of choice ,and the result is returned on screen with class and explaination.
-https://github.com/Classification-Team-JM1/Classification_Predict_Package/blob/streamlit_resources/classification-predict-streamlit-jm/resources/imgs/Classes_discription.png
+![](resources/imgs/jm_streamlit-base-splash-screen.png)
 
+![Streamlit](resources/imgs/jm_streamlit-base-splash-screen.png)
 #### 2 .Purpose of the App 
 On this tab ,the user can read about why this app was develpoed and how it can be benefitial to them.There is also some brief information as to
 why knowing about how people general feel about man-man climate change can be beneficial to them.
