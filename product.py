@@ -1,6 +1,4 @@
 #Pakages for Visuals
-pip install spacy
-python3 -m spacy download en_core_web_sm 
 import altair as alt
 import plotly.figure_factory as ff
 from wordcloud import WordCloud
@@ -21,9 +19,8 @@ import pandas as pd
 
 # NLP Packages
 import spacy
-import en_core_web_sm
-nlp = en_core_web_sm.load()
-#nlp = spacy.load('en')
+#import en_core_web_sm
+nlp = spacy.load('en')
 
 raw = pd.read_csv("Images/train.csv.csv")
 clean = pd.read_csv("Images/clean")
