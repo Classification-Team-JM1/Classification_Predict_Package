@@ -1,5 +1,5 @@
 #Pakages for Visuals
-spacy download en
+
 import altair as alt
 import plotly.figure_factory as ff
 from wordcloud import WordCloud
