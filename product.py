@@ -1,16 +1,3 @@
-#Pakages for Visuals
-
-import altair as alt
-import plotly.figure_factory as ff
-from wordcloud import WordCloud
-from collections import Counter
-import matplotlib.pyplot as plt 
-import matplotlib
-matplotlib.use('Agg')
-#Images Dependences
-
-from PIL import Image
-
 # Streamlit dependencies
 import streamlit as st
 import joblib,os
@@ -18,10 +5,22 @@ import joblib,os
 # Data dependencies
 import pandas as pd
 
+#Pakages for Visuals
+import altair as alt
+import plotly.figure_factory as ff
+from wordcloud import WordCloud
+from collections import Counter
+import matplotlib.pyplot as plt 
+import matplotlib
+matplotlib.use('Agg')
+
+#Images Dependences
+from PIL import Image
+
 # NLP Packages
 import spacy
 #import en_core_web_sm
-#nlp = spacy.load('en')
+nlp = spacy.load('en')
 
 raw = pd.read_csv("Images/train.csv.csv")
 clean = pd.read_csv("Images/clean")
