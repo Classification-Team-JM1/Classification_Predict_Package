@@ -3,6 +3,8 @@
 
 ## 1) Overview
 
+classification-predict-streamlit-jm/resources/Images/banksy.jpg
+
 ![Streamlit](resources/imgs/streamlit.png)
 
 This repository hosts code to deploy [Streamlit](https://www.streamlit.io/) web application that classifies user input text related to global warming as either as either Pro ,Nuetral ,Anti or news. It also has a natuaral language processing feature.
