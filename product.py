@@ -1,5 +1,5 @@
 #Pakages for Visuals
-!pip3 install spacy
+pip3 install spacy
 python3 -m spacy download en_core_web_sm 
 import altair as alt
 import plotly.figure_factory as ff
