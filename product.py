@@ -19,7 +19,7 @@ import pandas as pd
 
 # NLP Packages
 import spacy
-nlp = spacy.load('en')
+#nlp = spacy.load('en')
 
 raw = pd.read_csv("Images/train.csv.csv")
 clean = pd.read_csv("Images/clean")
