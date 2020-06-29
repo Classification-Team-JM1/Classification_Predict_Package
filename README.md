@@ -8,7 +8,7 @@
 This repository hosts code to deploy [Streamlit](https://www.streamlit.io/) web application that classifies user input text related to global warming as either as either Pro ,Nuetral ,Anti or news. It also has a natuaral language processing feature.
 
   
-
+#### **The structure of the app is as follows**
 #### 1. Predict Tab
 In the side bar drop down ,the user can choose the prediction tab .On this page ,the user is prompted to enter the text they wish to classify , order to determind if the it is either Pro ,Nuetral ,Anti or news.To classify this text ,there are 3 models to choose from which have been trained on the same data set and then prickled to deploy on the app.
 The user has the option of Logistic regression, Random forest, or a Support vector machine learning model.After selecting a model,and upon  pressing the "classify" button ,the text is classified by the model of choice ,and the result is returned on screen with class and explaination.
@@ -25,7 +25,6 @@ The user gets to see the raw data set as it was collected and the final dataset 
 
 ##### 4.Machine Learning Tab 
 On this tap ,the user can read about the tree machine learning models in the app ,how they work ,how they were trained and how well they performed during training .The user is offered a brief introduction to Logistic Regression ,Random forest and Support vector machine learning algorithm and how they make a prediction .There are also links to sklearn documentation ,which are more technical.
-
 
 
 ##### 5. Global Warming in 5 minutes
@@ -46,7 +45,7 @@ The uses an API to run on aws
 
 
 #### 2.2) Running the Streamlit web app on your local machine
-With the Solution_Minors script ,the app can be ran on a local machine 
+With the Solution_Minors python script in this repo,the app can be ran on a local machine 
 
 To do this, follow the steps below by running the given commands within a Git bash (Windows), or terminal (Mac/Linux):
 
@@ -63,7 +62,7 @@ To do this, follow the steps below by running the given commands within a Git ba
  3. Navigate to the base of the cloned repo, and start the Streamlit app.
 
  ```bash
- cd directory where the repo was cloned 
+ change directory to where the repo was cloned 
  streamlit run base_app.py
  ```
 
@@ -80,7 +79,7 @@ You should also be automatically directed to the base page of your web app:
 
 ![Streamlit base page](resources/imgs/streamlit-base-splash-screen.png)
 
-Congratulations! You've now officially deployed opened the application!
+Congratulations! You've now officially deployed the application!
 
 While we leave the modification of your web app up to you, the latter process of cloud deployment is outlined within the next section.  
 
