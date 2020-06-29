@@ -21,7 +21,7 @@ from PIL import Image
 import spacy
 #import en_core_web_sm
 #nlp = spacy.load('en')
-import en_core_web_sm
+#import en_core_web_sm
 nlp = en_core_web_sm.load()
 
 raw = pd.read_csv("Images/train.csv.csv")
