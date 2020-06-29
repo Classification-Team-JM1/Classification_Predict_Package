@@ -154,10 +154,4 @@ Where the specific `Network` and `External` URLs correspond to those assigned to
 
 Having run your web app within Tmux, you should be now free to end your ssh session while your webserver carries on purring along. Well done :zap:!
 
-## 3) FAQ
 
-This section of the repo will be periodically updated to represent common questions which may arise around its use. If you detect any problems/bugs, please [create an issue](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue) and we will do our best to resolve it as quickly as possible.
-
-We wish you all the best in your learning experience :rocket:
-
-![Explore Data Science Academy](resources/imgs/EDSA_logo.png)
