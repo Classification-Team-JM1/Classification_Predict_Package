@@ -2,6 +2,9 @@
 import streamlit as st
 import joblib,os
 
+nlp_picl = open("nlp.pkl","rb")#put in the location of the picle
+nlp = joblib.load(nlp_picl) # loading  nlp from the pkl file
+
 # NLP Pkgs
 import spacy
 nlp = spacy.load('en')
